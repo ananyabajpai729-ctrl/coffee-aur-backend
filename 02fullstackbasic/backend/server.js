@@ -7,7 +7,7 @@ const app = express();
 // });
 
 // get a list of 5 aesthetics
-app.get('/aesthetics', (req, res)=>{
+app.get('/api/aesthetics', (req, res)=>{
     const aesthetics = [
         {
             "id": 1,
